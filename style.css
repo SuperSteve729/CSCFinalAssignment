@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(to right, rgb(109, 239, 243), rgb(89, 168, 199));
+}
+
+p {
+    color: rgb(27, 0, 150);
+}
+
+#countDownTimer {
+    font-weight: bold;
+    color: olive;
+}
+
+.blinking {
+    animation: opacitySwitch 2s linear infinite;
+    color: yellow;
+}
+
+@keyframes opacitySwitch {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+h1 {
+    color:blueviolet;
+}
+
+.button {
+    font-size: small;
+    width: 150px;
+    height: 30px;
+    background-color: azure;
+    border-radius: 12px;
+    border-color: lightblue;
+}
+
+.lgbutton {
+    width: 200px;
+    height: 30px;
+    background-color: azure;
+    border-radius: 12px;
+    border-color: lightblue;
+}
